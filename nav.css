@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+    float: right;
+}
+
+.ignore {
+    color: black;
+    background-color: #79c7a9;
+    font-size: 25px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* first number is top bottom, second is left right*/
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.ignore){
+    background-color: #00733b;
+}
+
+html {
+    background-image: url(./images/bug-bg.png);
+    background-size: cover;
+}
